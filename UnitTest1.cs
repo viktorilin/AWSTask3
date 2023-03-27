@@ -2,7 +2,7 @@ using Amazon.EC2.Model;
 using Amazon.EC2;
 using RestSharp;
 
-namespace AWSTask3
+namespace AWSTasks
 {
     public class Tests
     {
@@ -14,7 +14,7 @@ namespace AWSTask3
         string privateIP2 = "";
 
         [Test]
-        public async Task Test1()
+        public async Task Task3()
         {
             var instance = await DescribeInstance(ec2InstanceId);
 
